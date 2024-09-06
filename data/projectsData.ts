@@ -6,17 +6,13 @@ interface Project {
   
 const projectsData: Project[] = [
   {
-    title: 'delancey',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    href: 'https://delancey.vercel.app/',
+    title: 'The role of integrity and ability in leadership',
+    description: `sole author in a Wiley journal, back in high school when I thought economics held the answer to the meaning of life`,
+    href: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/mde.3453',
   },
   {
-    title: 'delanceyv2',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
+    title: 'delancey',
+    description: `the missing link between your spotify playlist and perfect set.`,
     href: 'https://delancey.vercel.app/',
   },
 ]

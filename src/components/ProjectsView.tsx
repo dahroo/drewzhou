@@ -3,7 +3,7 @@ import projectsData from "@/data/projectsData";
 
 const ProjectsView: React.FC = () => {
   return (
-    <div className="space-y-4">
+    <div className="space-y-4 mt-7">
       {projectsData.map((project) => (
         <a
           key={project.title}
@@ -14,7 +14,7 @@ const ProjectsView: React.FC = () => {
         >
           <div>
             <h2 className="text-xl font-bold">{project.title}</h2>
-            <p className="text-gray-600">{project.description}</p>
+            <p className="text-gray-600 mt-1">{project.description}</p>
           </div>
         </a>
       ))}

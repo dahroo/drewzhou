@@ -16,16 +16,17 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
   return (
-    <html lang="en">
-      <body className={`${inter.className} bg-gray-50 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8`}>
-        <div className="h-screen">
-          <Header/>
-          {children}
-        </div>
-        <Footer/>
-      </body>
-    </html>
+<html lang="en">
+  <body className={`${inter.className} bg-gray-50 flex flex-col flex-grow max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full h-full min-h-screen`}>
+    <div className="min-h-screen h-full flex flex-col">
+      <Header />
+        {children}
+    </div>
+    <Footer />
+  </body>
+
+</html>
+
   );
 }

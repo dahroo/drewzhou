@@ -5,8 +5,8 @@ export default function Writings() {
   const writingsMetadata = getWritingsMetadata('data/writings');
 
   return (
-    <main>
-      <h1>writings</h1>
+    <main className="p-3">
+      <h1 className="text-5xl font-bold mt-3">writings</h1>
       <WritingsView metadata={writingsMetadata}/>
     </main>
   );
