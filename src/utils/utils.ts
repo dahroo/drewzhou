@@ -42,6 +42,11 @@ export default function getWritingsMetadata(basePath: string, limit?: number): W
 
 export async function getWritingBySlug(slug: string) {
     const fullPath = path.join(process.cwd(), `data/writings/${slug}.mdx`);
+
+    if (!fs.existsSync(fullPath)) {
+      return null;
+    }
+    
     const fileContents = fs.readFileSync(fullPath, 'utf8');
   
     const { data, content } = matter(fileContents);
