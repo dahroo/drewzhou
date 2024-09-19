@@ -7,7 +7,7 @@ interface Project {
 const projectsData: Project[] = [
   {
     title: 'The role of integrity and ability in leadership',
-    description: `sole author in a Wiley journal, back in high school when I thought economics held the answer to the meaning of life`,
+    description: `rent-seeking in leader-followers teams`,
     href: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/mde.3453',
   },
   {
